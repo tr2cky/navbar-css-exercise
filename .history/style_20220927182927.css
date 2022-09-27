@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+    font-size: 1.5rem;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.search {
+    align-self: center;
+}

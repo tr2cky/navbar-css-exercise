@@ -1,0 +1,10 @@
+nav {
+    display: flex;
+    place-items: space-around;
+    background-color: black;
+    color: white;
+}
+ul {
+    list-style: none;
+    display: flex;
+}

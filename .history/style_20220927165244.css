@@ -1,0 +1,11 @@
+nav {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}

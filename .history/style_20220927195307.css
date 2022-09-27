@@ -1,0 +1,54 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+    font-size: 1.5rem;
+    flex-wrap: nowrap;
+}
+#hamburger {
+    fill: white;
+    align-self: center;
+    margin-left: 20px;
+    display: none;
+}
+.navbar {
+    all:inherit;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-self: center;
+}
+.search {
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 5px 5px;
+}
+#button1 {
+    background-color: transparent;
+    color: rgb(173, 172, 172);
+    border: none;
+    font-size: 1.3rem;
+}
+#button2 {
+    background-color: black;
+    color: green;
+    border: 1px solid green;
+}
+@media screen and (max-width: 768px) {
+    .navbar > ul, #button1, .search {
+        display: none;
+    }
+    #hamburger {
+        display: block;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

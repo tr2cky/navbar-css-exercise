@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+    font-size: 1.5rem;
+}
+.navbar {
+    all:inherit;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-self: center;
+}
+.search {
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 5px 5px;
+}
+#button1 {
+    background-color: transparent;
+}
+#button2 {
+    background-color: black;
+    color: green;
+    border: 1px solid green;
+}
